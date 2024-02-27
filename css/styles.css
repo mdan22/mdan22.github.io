@@ -11044,3 +11044,21 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+
+.icon-container {
+  position: relative;
+  display: inline-block;
+}
+
+.small-square {
+  width: 30px; /* Adjust the width as needed */
+  height: 30px; /* Adjust the height as needed */
+  line-height: 30px; /* Center the text vertically */
+  font-size: 12px; /* Adjust the font size as needed */
+}
+
+.icon-container {
+  position: relative;
+  display: inline-block;
+}
+

@@ -177,7 +177,7 @@
             m.classList.add("d-none"); // Hide submit button or any submission-related elements
         
             try {
-                const formData = new FormData(event); // Get form data
+                const formData = new FormData(event.target); // Get form data
                 const formEndpoint = 'https://formspree.io/f/mqkrbqay'; // Replace 'formendpoint' with your actual Formspree endpoint
         
                 // Submit form data to Formspree endpoint using the form's action attribute

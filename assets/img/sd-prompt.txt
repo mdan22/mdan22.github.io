@@ -1,0 +1,24 @@
+# prompt I used to create my pfp image (in img2img, used my old pfp as base):
+
+sd-checkpoint: meinahentai_v4.safetensors [8145104977]
+
+prompt:
+A young man (half-european and half-asian man in his 20s, dark brown hair, slightly tainted skin, buzzcut, smile, black crew neck shirt) formal profile picture, face closeup, best quality, background: turquoise circle on white background, minimalistic, simple, anime style, logo
+
+negative prompt:
+
+bad quality, (watermark), (hands), blur, long neck, wide body, (wide shoulders), lower body, leaning, tilt, shiny, dof, makeup, beard, moustache
+
+vae: ClearVAE
+
+euler a
+
+sampling steps: 20
+
+size: 1024 x 1024
+
+denoising strength: 0.75
+
+cfg scale: 4
+
+seed: 3497032578
